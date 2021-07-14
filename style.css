@@ -129,14 +129,14 @@ footer p{
     .main-header{
         margin-left: 16px;
     }
-    .banner img{
+    .icon img{
         width: 329px;
         height: 260px;
     }
-    .banner{
+    .icon{
         padding: 55px 15px;
     }
-    .players{
+    .team-members{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         display: flex;
