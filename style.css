@@ -1,0 +1,150 @@
+/*------------------
+     Google Font 
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: Poppins;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(cyan, blue);
+    padding: 45px 120px 50px 156px;
+}
+.menu{
+    display: none;
+}
+.nav-left  {
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+}
+
+.header{
+    background-image: linear-gradient(blue, cyan);
+    display: flex;
+    padding-bottom: 86px;
+}
+.main-header{
+    margin-left: 156px;
+    margin-right: 100px;
+}
+.header-title{
+    width: 485px;
+    height: 230px;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 27px;
+}
+.main-header a, .nav-right{
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 6px;
+}
+.icon img{
+    height: 438px;
+    width: 556px;
+}
+
+.icon:hover{
+    transform:scaleX(1.5) rotate(360deg);
+    transition: transform 4s ease-in-out;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    width: 1050px;
+    margin-top: 70px;
+}
+.team-member{
+    width: 330px;
+    box-shadow: 2px 2px 20px cyan ;
+    padding: 15px;
+}
+.team-member img{
+    width: 100%;
+}
+.team-member h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.victor{text-align: center;
+}
+.zulu{
+    text-decoration: none;
+    color: cyan; 
+    ;
+}
+footer img{
+    width: 485px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0;
+}
+.fab{
+    color: #969bab;
+    font-size: 1.2em;
+    padding: 14px;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+@media only screen and (max-width:688px) {
+    nav{
+        padding: 30px 16px;
+    }
+    .nav-left{
+        display: none;
+    }
+    
+    .fa-bars{
+        font-size: 24px;
+        color: white;
+    }
+    .header{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .header-title{
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+    }
+    .main-header{
+        margin-left: 16px;
+    }
+    .banner img{
+        width: 329px;
+        height: 260px;
+    }
+    .banner{
+        padding: 55px 15px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer img{
+        width: 80%;
+        padding-left: 30px;
+    }
+}
