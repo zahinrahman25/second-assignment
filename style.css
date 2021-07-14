@@ -64,7 +64,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-    width: 1050px;
+    width: 1080px;
     margin-top: 70px;
 }
 .team-member{
